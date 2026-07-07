@@ -2,17 +2,74 @@
 <html lang="da">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SolaraRoleplay</title>
-  <style>body{font-family:Segoe UI,Arial;background:#0b1118;color:#fff;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}main{max-width:720px;padding:2rem;border-radius:10px;background:rgba(255,255,255,0.03);border:1px solid rgba(255,255,255,0.04)}a{color:#7dd3fc}</style>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <main>
-    <h1>SolaraRoleplay</h1>
-    <p>Dette repository indeholder en PHP-baseret hjemmeside til din FiveM-server.</p>
-    <p><strong>Bemærk:</strong> GitHub Pages kan ikke køre PHP, så for at bruge alle funktioner (ansøgninger, admin, database) skal du hoste dette projekt på en PHP-kompatibel server.</p>
-    <p>Hvis du bare vil se en informationsside her, så er du nu klar.</p>
-    <p class="small">Se repo: <a href="https://github.com/andreas1476/solara-website">github.com/andreas1476/solara-website</a></p>
+  <header class="site-header">
+    <div class="container">
+      <div style="font-size:1.1rem;font-weight:700;letter-spacing:-0.03em;">SolaraRoleplay</div>
+      <nav>
+        <a href="#about" class="active">Om</a>
+        <a href="#features">Features</a>
+        <a href="#hosting">Hosting</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero" id="about">
+      <h1>SolaraRoleplay</h1>
+      <p>En moderne FiveM-hjemmeside, udviklet til at præsentere serveren professionelt og samtidig være klar til PHP-backend.</p>
+      <div style="margin-top:1.5rem; display:flex; flex-wrap:wrap; gap:1rem;">
+        <a class="button" href="https://github.com/andreas1476/solara-website">Se projekt</a>
+        <a class="button secondary" href="#hosting">Hosting-info</a>
+      </div>
+    </section>
+
+    <section class="features" id="features">
+      <div class="grid grid-3" style="margin-top:1.5rem;">
+        <article class="feature-card">
+          <h3>Stærk landing</h3>
+          <p>Flot og moderne landingsside, der fungerer som første indtryk for din server.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Komplet PHP-hjemmeside</h3>
+          <p>Ansøgningsformular, staff-håndtering og API-endpoints ligger klar i projektet.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Discord + Join</h3>
+          <p>Nem adgang til Discord, join-link og relevant info.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="card" id="hosting">
+      <h2>Bemærk</h2>
+      <p class="small">GitHub Pages kan ikke køre PHP. Denne side er en statisk landing til dit repo. For fuld funktionalitet skal du hoste projektet på en PHP-kompatibel server.</p>
+      <ul>
+        <li>Ansøgningssystem og staff-admin kræver PHP.</li>
+        <li>SQLite-database fungerer ikke på Pages.</li>
+        <li>Brug et webhotel eller PHP-hosting for at aktivere alle funktioner.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Hjælp til næste skridt</h2>
+      <p class="small">Jeg kan hjælpe med at gøre siden endnu mere fed, og med at sætte PHP-hosting op, så alt virker.</p>
+      <div style="display:flex; flex-wrap:wrap; gap:1rem; margin-top:1rem;">
+        <a class="button secondary" href="https://github.com/andreas1476/solara-website">Repo</a>
+        <a class="button" href="https://andreas1476.github.io/solara-website">Åbn Pages</a>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="container">
+      <p>SolaraRoleplay — din PHP-baserede FiveM-hjemmeside. Host projektet på en PHP-server for fuld funktionalitet.</p>
+    </div>
+  </footer>
 </body>
 </html>
