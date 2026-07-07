@@ -17,7 +17,21 @@
     <main class="container">
         <section class="card">
             <h2>Vores team</h2>
-            <p>Staff-medlemmerne er her for at hjælpe og holde fællesskabet i orden.</p>
+            <p class="small">Staff-medlemmerne er her for at hjælpe, holde orden og sikre en god oplevelse for alle.</p>
+            <div class="grid">
+                <div class="card">
+                    <h3>Administration</h3>
+                    <p>Overvågning af serveren, udvikling og fællesskabets fremtid.</p>
+                </div>
+                <div class="card">
+                    <h3>Politi</h3>
+                    <p>Håndterer lov og orden og sikrer en realistisk RP-oplevelse.</p>
+                </div>
+                <div class="card">
+                    <h3>EMS</h3>
+                    <p>Støtter spillere og sikrer, at medicinske situationer håndteres professionelt.</p>
+                </div>
+            </div>
         </section>
     </main>
 

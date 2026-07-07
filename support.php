@@ -17,7 +17,13 @@
     <main class="container">
         <section class="card">
             <h2>Har du brug for hjælp?</h2>
-            <p>Kontakt support via vores supportkanaler eller staff-teamet.</p>
+            <p class="small">Kontakt support via vores supportkanaler eller staff-teamet, hvis du har brug for hjælp.</p>
+            <ul>
+                <li>Discord support</li>
+                <li>FiveM server spørgsmål</li>
+                <li>Ansøgningsspørgsmål</li>
+                <li>Tekniske problemer</li>
+            </ul>
         </section>
     </main>
 

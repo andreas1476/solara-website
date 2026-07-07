@@ -17,10 +17,12 @@
     <main class="container">
         <section class="card">
             <h2>Vores regler</h2>
+            <p class="small">For at skabe et godt og professionelt fællesskab følger vi disse regler.</p>
             <ul>
-                <li>Respektér andre spillere.</li>
-                <li>Hold en god rolleplayskik.</li>
-                <li>Følg serverens retningslinjer.</li>
+                <li>Respektér andre spillere og staff.</li>
+                <li>Hold en god og realistisk rolleplayskik.</li>
+                <li>Følg serverens retningslinjer og fair-play principper.</li>
+                <li>Brug korrekt adfærd i både RP og almindelig chat.</li>
             </ul>
         </section>
     </main>

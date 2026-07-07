@@ -25,13 +25,32 @@
     <main class="container">
         <section class="hero">
             <h2>Velkommen til SolaraRoleplay</h2>
-            <p>Et fællesskab med spændende historier, ordentlig rolleplay og engageret staff.</p>
+            <p>Et fællesskab med spændende historier, ordentlig rolleplay og engageret staff. Vi fokuserer på stærke roller, fair spil og et professionelt miljø.</p>
             <div id="server-status" style="margin-top:1rem"></div>
             <div style="margin-top:1rem">
                 <a id="join-server" class="button" href="#">Join FiveM</a>
-                <a id="join-discord" class="button" href="#" target="_blank">Join Discord</a>
+                <a id="join-discord" class="button secondary" href="#" target="_blank">Join Discord</a>
             </div>
         </section>
+
+        <section class="grid" style="margin-top:1.5rem;">
+            <div class="card">
+                <h3>Regler</h3>
+                <p>Læs vores retningslinjer for respekt, rolleplay og fair play.</p>
+                <a class="button secondary" href="rules.php">Se regler</a>
+            </div>
+            <div class="card">
+                <h3>Ansøgninger</h3>
+                <p>Er du klar til at blive en del af serveren? Ansøg her.</p>
+                <a class="button secondary" href="applications.php">Ansøg nu</a>
+            </div>
+            <div class="card">
+                <h3>Staff</h3>
+                <p>Se vores team og deres ansvar.</p>
+                <a class="button secondary" href="staff.php">Se staff</a>
+            </div>
+        </section>
+
         <section class="card">
             <h2>Aktive spillere</h2>
             <div id="players">Henter status...</div>

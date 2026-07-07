@@ -17,7 +17,7 @@
     <main class="container">
         <section class="card">
             <h2>Log ind</h2>
-            <p>Dette er en placeholder-side til login.</p>
+            <p class="small">Dette er en placeholder-side til login. Admin-login kan tilføjes senere.</p>
         </section>
     </main>
 
